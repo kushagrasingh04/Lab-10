@@ -7,4 +7,7 @@ jobs:
   Basic-Workflow:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - run: echo "Job is executing as part of Basic workflow"
+      - run: javac Calculator.java
+      - run: java Calculator
