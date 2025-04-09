@@ -1,5 +1,3 @@
-package devops.cicd;
-
 public class Calculator {
 	public int sum(int a, int b)
 	{
