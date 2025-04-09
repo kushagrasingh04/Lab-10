@@ -1,6 +1,6 @@
 package devops.cicd;
 
-public class MyCalc {
+public class Calculator {
 	public int sum(int a, int b)
 	{
 		return a+b;
@@ -20,7 +20,7 @@ public class MyCalc {
 
 	public static void main(String[] args) {
 
-		MyCalc calc = new MyCalc();
+		Calculator calc = new Calculator();
 		System.out.println("Sum is: "+calc.sum(20, 10));
 		System.out.println("Diff is: "+calc.diff(20, 10));
 		System.out.println("Mul is: "+calc.mul(20, 10));
